@@ -1,3 +1,48 @@
 *{
   box-sizing: border-box;
 }
+.menubar {
+  margin-left: 150px;
+  text-align: center;
+  display: flex;
+  width: 100vw;
+}
+.menuitem{
+  width: 20px;
+  height: 60px;
+  background-color: pink;
+  margin: 2px;
+  flex: 1;
+}
+
+.twocolumns {
+  margin-top: 47px;
+  margin-left: 150px;
+  display: flex;
+}
+.container-left{
+  display: flex;
+  flex-direction: column;
+}
+.container-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.leftbox {
+  background-color: darkgray;
+  width: 750px;
+  height: 920px;
+  margin-bottom: 50px;
+}
+
+.rightbox {
+  background-color: lightgray;
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+}
+
+/* div [class *="box"]{
+  background-color: red;
+} */

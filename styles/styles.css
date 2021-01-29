@@ -11,15 +11,17 @@ body {
   width: 100vw;
 }
 .menuitem{
-  /* width: 20px; */
-  padding: 10px;
   padding-top: 25px;
-  font-size: small;
+  font-size: 11px;
+  width: 75px;
+  font-family: "Lato";
+  font-weight: 700;
   text-align: center;
   display: inline-block;
-  height: 60px;
+  height: 55px;
   background-color: pink;
   margin: 0;
+  font-stretch: extra-expanded;
 }
 .menuLeftSpace {
   width: 135px;
@@ -40,7 +42,7 @@ body {
   width: 140px;
 }
 .twocolumns {
-  margin-top: 47px;
+  margin-top: 51px;
   margin-left: 150px;
   display: flex;
 }
@@ -54,12 +56,47 @@ body {
 }
 
 .leftbox {
+  text-align: center;
   background-color: darkgray;
   width: 750px;
   height: 920px;
   margin-bottom: 50px;
 }
+/* letter-spacing: 1px
+font-weight: 100; */
+.boxText{
+  margin-top: 40px;
+}
 
+.boxTitle{
+  font-size: small;
+  font-weight: bold;
+}
+.boxHeadline{
+  font-size: x-large;
+  font-family: "Oswald";
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.articleText{
+  line-height: 23px;
+  text-align: justify;
+  background-color: pink;
+  margin: 26px 40px 0 40px;
+  padding: 0;
+}
+.boxButton{
+  padding: 10px 20px 10px 20px;
+  font-size: small;
+  margin-top: 42px;
+}
+
+.boxFooter{
+  height: 50px;
+  padding: 20px;
+  background-color: lightblue;
+  margin-top: 40px;
+}
 .rightbox {
   margin-left: 30px;
   background-color: lightblue;

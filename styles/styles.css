@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .menubar {
-  margin-left: 150px;
+  /* margin-left: 150px; */
   text-align: center;
   display: flex;
   width: 100vw;
@@ -37,10 +37,29 @@
 }
 
 .rightbox {
-  background-color: lightgray;
-  width: 250px;
-  height: 400px;
-  margin: 10px;
+  margin-left: 30px;
+  background-color: lightblue;
+  width: 360px;
+  height: 2473px;
+  margin bottom: 10px;
+}
+.instaBar{
+  text-align: center;
+  margin-top: 26px;
+  height: 79px;
+  width: 100vw;
+  background-color: lightblue;
+}
+.instaPhotos {
+  display: flex;
+  width: 100vw;
+}
+
+.instaItem {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  border: solid 1px black;
 }
 
 /* div [class *="box"]{

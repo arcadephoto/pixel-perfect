@@ -7,40 +7,40 @@ body {
 .menubar {
   /* margin-left: 150px; */
   /* text-align: center; */
-  /* display: flex; */
+  display: flex;
   width: 100vw;
 }
+
+.menuLeft{
+  margin-left: 140px;
+  margin-right: auto;
+}
+.menuRight{
+  margin-right: 145px;
+  margin-left: auto;
+}
 .menuitem{
-  padding-top: 25px;
+  letter-spacing: 1px;
+  padding-top: 20px;
   font-size: 11px;
-  width: 75px;
+  /* width: 75px; */
   font-family: "Lato";
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   display: inline-block;
   height: 55px;
   background-color: pink;
   margin: 0;
-  font-stretch: extra-expanded;
-}
-.menuLeftSpace {
-  width: 135px;
-}
-.leftMenu {
-  /* flex: 1; */
-  /* width: 60px; */
 }
 
-.menuCenterSpace {
-  width: 500px;
+.leftMenu{
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.rightMenu{
-  /* padding: 0; */
+.rightMenu {
   width: 25px;
 }
-.menuRightSpace{
-  width: 140px;
-}
+
 .twocolumns {
   margin-top: 51px;
   margin-left: 150px;
@@ -65,7 +65,7 @@ body {
 /* letter-spacing: 1px
 font-weight: 100; */
 .boxText{
-  margin-top: 40px;
+  margin-top: 41px;
 }
 
 .boxTitle{
@@ -91,11 +91,27 @@ font-weight: 100; */
   margin-top: 42px;
 }
 
-.boxFooter{
+.boxNav{
+  display: flex;
   height: 50px;
   padding: 20px;
   background-color: lightblue;
-  margin-top: 40px;
+  margin-top: 41px;
+}
+
+.boxFoot{
+  font-family: "Lato";
+  font-style: italic;
+}
+.footleft{
+  letter-spacing: .5px;
+  font-size: small;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.footright{
+  margin-right: 40px;
+  margin-left: auto;
 }
 .rightbox {
   margin-left: 30px;

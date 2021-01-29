@@ -1,20 +1,44 @@
 *{
   box-sizing: border-box;
 }
+body {
+  font-family: "Lato", "Oswald", "Playfair Display", sans-serif;
+}
 .menubar {
   /* margin-left: 150px; */
-  text-align: center;
-  display: flex;
+  /* text-align: center; */
+  /* display: flex; */
   width: 100vw;
 }
 .menuitem{
-  width: 20px;
+  /* width: 20px; */
+  padding: 10px;
+  padding-top: 25px;
+  font-size: small;
+  text-align: center;
+  display: inline-block;
   height: 60px;
   background-color: pink;
-  margin: 2px;
-  flex: 1;
+  margin: 0;
+}
+.menuLeftSpace {
+  width: 135px;
+}
+.leftMenu {
+  /* flex: 1; */
+  /* width: 60px; */
 }
 
+.menuCenterSpace {
+  width: 500px;
+}
+.rightMenu{
+  /* padding: 0; */
+  width: 25px;
+}
+.menuRightSpace{
+  width: 140px;
+}
 .twocolumns {
   margin-top: 47px;
   margin-left: 150px;

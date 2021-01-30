@@ -91,6 +91,7 @@ body {
   text-align: justify;
   /* background-color: pink; */
   margin: 24px 40px 0 40px;
+  color: #444444;
   padding: 0;
 }
 .boxButton{
@@ -117,7 +118,7 @@ body {
   height: 50px;
   padding: 20px;
   /* background-color: lightblue; */
-  margin-top: 41px;
+  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
   padding-left: 0;
@@ -139,6 +140,7 @@ body {
 }
 .frItems{
   /* width: 150px; */
+  transform: translateX(6px);
   letter-spacing: 6.5px;
 
 }

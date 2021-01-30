@@ -151,7 +151,7 @@ body {
   background-color: lightblue;
   width: 360px;
   height: 2473px;
-  margin bottom: 10px;
+  margin bottom: 11px;
   position: relative;
 }
 
@@ -170,37 +170,72 @@ body {
 }
 
 .rightbox {
+  transform: translateY(2px);
   background-color: brown;
   /* width: 350px; */
-  height: 600px;
-  margin: 30px;
+  height: 200px;
+  margin: 10px 30px 10px 30px;
+}
+
+.right-box1 {
+  height: 860px;
+}
+
+.right-box2{
+  margin-top: 30px;
+  height: 515px;
+}
+
+.right-box3{
+  margin-top: 30px;
+  height: 485px;
 }
 
 .bioName{
+  color: #444444;
   text-align: center;
   font-family: "Oswald";
   font-size: large;
-  font-weight: bolder;
+  font-weight: 500;
   padding-top: 70px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
 .bioText{
+  color: #666666;
   padding-top: 0;
-  margin: 20px 30px 30px 30px;
+  margin: 20px 30px 25px 30px;
   text-align: center;
   line-height: 25px;
 }
 
 .bioIcons{
   /* display: flex; */
+  color: #AAAAAA;
   width: 350px;
   font-size: 15px;
   text-align: center;
-  letter-spacing: 10px;
-  transform: translateX(5px);
+  letter-spacing: 9px;
+  /* transform: translateX(5px); */
 }
+
+.iconround {
+  padding: 4px;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #AAAAAA;
+  border-width: thin;
+}
+
+.rightinfo{
+  margin: 30px;
+  height: 200px;
+  background-color: darkgray;
+}
+
 
 .instaBar{
   text-align: center;

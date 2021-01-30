@@ -71,7 +71,7 @@ body {
 }
 
 .boxText{
-  margin-top: 41px;
+  margin-top: 40px;
 }
 
 .boxTitle{
@@ -99,11 +99,12 @@ body {
   font-size: 11px;
   font-weight:bold;
   letter-spacing: 1.5px;
-  margin-top: 35px;
+  margin-top: 36px;
   background-color: white;
   border-color: #D6805E;
   border-style: solid;
   color: #D6805E;
+  border-width: 1px;
 }
 
 .boxNav{
@@ -113,12 +114,11 @@ body {
   border-left: none;
   border-right: none;
   border-color: lightgray;
-
   display: flex;
   height: 50px;
   padding: 20px;
   /* background-color: lightblue; */
-  margin-top: 40px;
+  margin-top: 41px;
   margin-left: 40px;
   margin-right: 40px;
   padding-left: 0;
@@ -142,15 +142,66 @@ body {
   /* width: 150px; */
   transform: translateX(6px);
   letter-spacing: 6.5px;
-
 }
-.rightbox {
+
+
+
+.container-right {
   margin-left: 30px;
   background-color: lightblue;
   width: 360px;
   height: 2473px;
   margin bottom: 10px;
+  position: relative;
 }
+
+.rightImg{
+
+}
+.bioPortrait{
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+}
+
+.rightbox {
+  background-color: brown;
+  /* width: 350px; */
+  height: 600px;
+  margin: 30px;
+}
+
+.bioName{
+  text-align: center;
+  font-family: "Oswald";
+  font-size: large;
+  font-weight: bolder;
+  padding-top: 70px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.bioText{
+  padding-top: 0;
+  margin: 20px 30px 30px 30px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.bioIcons{
+  /* display: flex; */
+  width: 350px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 10px;
+  transform: translateX(5px);
+}
+
 .instaBar{
   text-align: center;
   margin-top: 26px;

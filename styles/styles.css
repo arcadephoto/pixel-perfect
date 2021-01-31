@@ -332,21 +332,34 @@ h2 {
 
 .instaBar{
   text-align: center;
-  margin-top: 26px;
-  height: 79px;
+  margin-top: 27px;
+  height: 80px;
   width: 100vw;
   background-color: lightblue;
 }
 .instaPhotos {
   display: flex;
+  flex
   width: 100vw;
 }
 
 .instaItem {
-  height: 200px;
+  height: 190px;
   width: 200px;
   background-color: pink;
-  border: solid 1px black;
+  /* border: solid 1px black; */
+}
+
+.instaItem img {
+  height: 190px;
+  width: 180px;
+}
+.instaTitle {
+  font-size: large;
+  letter-spacing: .75px;
+  font-family: "Oswald";
+  padding-top: 30px;
+
 }
 
 /* div [class *="box"]{

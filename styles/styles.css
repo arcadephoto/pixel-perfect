@@ -50,6 +50,12 @@ a:visited{
   /* background-color: pink; */
   margin: 0;
 }
+.left-box2 {
+  transform: translateY(-2px);
+}
+.left-box2 button{
+  transform: translateY(1px);
+}
 
 .left-box3 {
   transform: translateY(-2px);
@@ -191,7 +197,7 @@ a:visited{
   border-width: 10px;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 100px;
+  margin-top: 95px;
 }
 
 .rightbox {
@@ -235,6 +241,8 @@ a:visited{
   padding-top: 70px;
   padding-bottom: 0;
   margin-bottom: 0;
+  transform: translateX(-2px);
+  transform: translateY(-1px)
 }
 
 .bioText{

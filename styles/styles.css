@@ -18,10 +18,9 @@ a:visited{
 }
 
 
+/* Top menu bar */
 
 .menubar {
-  /* margin-left: 150px; */
-  /* text-align: center; */
   display: flex;
   width: 100vw;
 }
@@ -37,32 +36,15 @@ a:visited{
   margin-left: auto;
 }
 .menuitem{
-  /* color: #A9A9A9; */
   letter-spacing: 1px;
   padding-top: 20px;
   font-size: 11px;
-  /* width: 75px; */
   font-family: "Lato";
   font-weight: bold;
   text-align: center;
   display: inline-block;
   height: 55px;
-  /* background-color: pink; */
   margin: 0;
-}
-.left-box2 {
-  transform: translateY(-2px);
-}
-.left-box2 button{
-  transform: translateY(1px);
-}
-
-.left-box3 {
-  transform: translateY(-2px);
-}
-
-.left-box4{
-  transform: translateY(-3px);
 }
 
 .leftMenu{
@@ -72,6 +54,9 @@ a:visited{
 .rightMenu {
   width: 25px;
 }
+
+
+/* basic structure of main page, diving content into two columns */
 
 .twocolumns {
   margin-top: 51px;
@@ -87,6 +72,9 @@ a:visited{
   flex-direction: column;
 }
 
+
+/* left column boxes with buttons and footer nav bars */
+
 .leftbox {
   border-color: lightgray;
   border-style: solid;
@@ -96,6 +84,21 @@ a:visited{
   width: 750px;
   height: 920px;
   margin-bottom: 50px;
+}
+
+.left-box2 {
+  transform: translateY(-2px);
+}
+.left-box2 button{
+  transform: translateY(1px);
+}
+
+.left-box3 {
+  transform: translateY(-2px);
+}
+
+.left-box4{
+  transform: translateY(-3px);
 }
 
 .boxText{
@@ -173,6 +176,7 @@ a:visited{
 }
 
 
+/* Right-column framework */
 
 .container-right {
   margin-left: 30px;
@@ -186,9 +190,6 @@ a:visited{
   border-width: thin;
 }
 
-.rightImg{
-
-}
 .bioPortrait{
   position: absolute;
   border-radius: 50%;
@@ -202,8 +203,6 @@ a:visited{
 
 .rightbox {
   transform: translateY(2px);
-  /* background-color: tan; */
-  /* width: 350px; */
   height: 200px;
   margin: 10px 30px 10px 30px;
 }
@@ -254,13 +253,11 @@ a:visited{
 }
 
 .bioIcons{
-  /* display: flex; */
   color: #AAAAAA;
   width: 350px;
   font-size: 15px;
   text-align: center;
   letter-spacing: 9px;
-  /* transform: translateX(5px); */
 }
 
 .iconround {
@@ -273,10 +270,13 @@ a:visited{
   border-width: thin;
 }
 
+
+/* Content below the bio is broken into three parent boxes and several child
+boxes. */
+
 .rightinfo{
   color: #444444;
   margin: 20px 30px 0px 30px;
-  /* background-color: darkgray; */
   text-align: center;
   font-family: "Oswald";
 }
@@ -329,17 +329,12 @@ p {
   margin-right: 20px;
   display: flex;
   height: 100px;
-  /* border-style: solid;
-  border-color: gray;
-  border-width: 1px; */
-  /* background-color: lightgreen; */
 }
 .flexbox{
   padding: 10px 10px 5px 10px;
   color: #444444;
   font-size: 13px;
   font-weight: bold;
-  /* letter-spacing: 1px; */
 }
 .flexRight{
   padding: 10px 1 10px 1;
@@ -374,7 +369,6 @@ h2 {
 
 .r2i2 {
   border-bottom: 1px solid lightgray;
-  /* transform: translateY(-10px); */
 
 }
 .r2i3{
@@ -404,6 +398,8 @@ h2 {
   font-size: 13px;
 }
 
+
+/* Instagram section with headline and photos, which embiggen on hover. */
 .gramHeadline{
   padding-top: 15px;
   padding-bottom: 0;
@@ -430,6 +426,9 @@ h2 {
   border: 2px solid #008B8B;
 }
 
+
+/* Bottom bar with Instagram photos, which display colored borders on hover. */
+
 .instaBar{
   text-align: center;
   margin-top: 27px;
@@ -446,8 +445,6 @@ h2 {
 .instaItem {
   height: 190px;
   width: 200px;
-  /* background-color: pink; */
-  /* border: solid 1px black; */
 }
 
 .instaItem img {
@@ -473,11 +470,11 @@ footer {
   background-color: #222223;
 }
 
-footer p {
-  padding-top: 30px;
+.footText {
+  font-family: "Lato";
+  font-size: 14px;
+  padding: 25px;
 }
-
-
-/* div [class *="box"]{
-  background-color: red;
-} */
+.fa-heart{
+  color: #DF726E;
+}

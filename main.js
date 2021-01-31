@@ -1,3 +1,12 @@
+// most of the code in here is function, but deactivated in favor of the
+// built-in :hover in CSS.
+//
+// These query selectors and event listeners can be used for later element events.
+
+
+
+
+
 
 const buttonAction = document.querySelectorAll('.boxButton');
 //const menuAction = document.querySelectorAll('.leftMenu');
@@ -56,22 +65,4 @@ function hoverOff(event){
 //
 // function socialHoverOff(event){
 //   this.style.color = "#A9A9A9";
-// }
-
-
-
-
-
-
-
-// function clickLogo() {
-//   if (broken == false) {
-//     moveText.src = "./assets/brokenlink.jpg";
-//     broken = true;
-//   }
-//   else {
-//     moveText.src = "./assets/hoob.jpg";
-//     broken = false;
-//   }
-//   return;
 // }

@@ -148,11 +148,14 @@ body {
 
 .container-right {
   margin-left: 30px;
-  background-color: lightblue;
+  background-color: #FFFFFF;
   width: 360px;
   height: 2473px;
   margin bottom: 11px;
   position: relative;
+  border-color: #EAEAEA;
+  border-style: solid;
+  border-width: thin;
 }
 
 .rightImg{
@@ -171,7 +174,7 @@ body {
 
 .rightbox {
   transform: translateY(2px);
-  background-color: tan;
+  /* background-color: tan; */
   /* width: 350px; */
   height: 200px;
   margin: 10px 30px 10px 30px;
@@ -179,16 +182,26 @@ body {
 
 .right-box1 {
   height: 860px;
+  border-color: #F5F5F5;
+  border-width: thin;
+  border-style: solid;
 }
 
 .right-box2{
   margin-top: 30px;
   height: 515px;
+  border-color: #F5F5F5;
+  border-width: thin;
+  border-style: solid
 }
 
 .right-box3{
+  text-align: center;
   margin-top: 30px;
   height: 485px;
+  border-color: #F5F5F5;
+  border-width: thin;
+  border-style: solid
 }
 
 .bioName{
@@ -221,7 +234,7 @@ body {
 }
 
 .iconround {
-  padding: 4px;
+  padding: 5px;
   height: 27px;
   width: 27px;
   border-radius: 50%;
@@ -232,7 +245,7 @@ body {
 
 .rightinfo{
   margin: 20px 30px 0px 30px;
-  background-color: darkgray;
+  /* background-color: darkgray; */
   text-align: center;
   font-family: "Oswald";
 }
@@ -244,10 +257,16 @@ body {
 .rightinfo1{
   margin-top: 31px;
   height: 290px;
+  border-bottom-color: #F5F5F5;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
 }
 
 .rightinfo2{
   height: 240px;
+  border-bottom-color: #F5F5F5;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
 }
 .rightinfo3{
   height: 240px;
@@ -288,8 +307,10 @@ p {
   padding: 10px;
 }
 h2 {
+  font-family: "Oswald";
   font-size: 20px;
   font-weight: normal;
+  color: #444444;
 }
 .r2i1 {
   padding-top: 15px;
@@ -314,6 +335,11 @@ h2 {
   font-size: 13px;
 }
 
+.gramHeadline{
+  padding-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 .photogrid{
   padding-top: 20px;
   padding-left: 25px;
@@ -335,7 +361,7 @@ h2 {
   margin-top: 27px;
   height: 80px;
   width: 100vw;
-  background-color: lightblue;
+  background-color: #FFFFFF;
 }
 .instaPhotos {
   display: flex;
@@ -346,7 +372,7 @@ h2 {
 .instaItem {
   height: 190px;
   width: 200px;
-  background-color: pink;
+  /* background-color: pink; */
   /* border: solid 1px black; */
 }
 
@@ -361,6 +387,18 @@ h2 {
   padding-top: 30px;
 
 }
+footer {
+  text-align: center;
+  color: #656565;
+  height: 80px;
+  width: 100vw;
+  background-color: #222223;
+}
+
+footer p {
+  padding-top: 30px;
+}
+
 
 /* div [class *="box"]{
   background-color: red;

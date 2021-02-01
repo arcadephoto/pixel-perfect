@@ -52,10 +52,25 @@ a:visited{
   padding-right: 10px;
 }
 .rightMenu {
-  width: 25px;
+  width: 23px;
+  transform: translateX(-10px);
+  font-size: 13px;
 }
-
-
+.port {
+  transform: translateX(1px);
+}
+.trav {
+  transform: translateX(2px);
+}
+.bout {
+  transform: translateX(3px);
+}
+.cont {
+  transform: translateX(4px);
+}
+.srch {
+  transform: translateX(1px);
+}
 /* basic structure of main page, diving content into two columns */
 
 .twocolumns {

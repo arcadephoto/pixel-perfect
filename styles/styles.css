@@ -163,7 +163,9 @@ a:visited{
   color: #D6805E;
   border-width: 1px;
 }
-
+.left-box3 .boxButton{
+  transform: translateY(1px);
+}
 .boxNav{
   border-style: solid;
   border-width: 1px;
@@ -272,6 +274,8 @@ a:visited{
 }
 
 .bioText{
+  font-family: "Lato";
+  font-size: 15px;
   color: #666666;
   padding-top: 0;
   margin: 20px 30px 25px 30px;
@@ -294,7 +298,7 @@ a:visited{
   width: 27px;
   border-radius: 50%;
   border-style: solid;
-  border-color: #AAAAAA;
+  border-color: #E8E8E8;
   border-width: thin;
 }
 
@@ -374,9 +378,9 @@ p {
   border: 1px solid #008B8B;
 }
 
-.flexbox img {
+/* .flexbox img {
   transform: translateY(-5px);
-}
+} */
 
 date {
   font-family: "Lato";
@@ -413,13 +417,13 @@ h2 {
 .r2i3{
   transform: translateY(3px);
   padding-top: 5px;
-  height: 100px;
+  height: 105px;
   border-bottom: 1px solid lightgray;
 }
 
 
 .r2i4{
-  padding-top: 10px;
+  padding-top: 5px;
   transform: translateY(5px);
   height: 105px;
   border-bottom: 1px solid lightgray;
@@ -428,7 +432,7 @@ h2 {
 
 .r2i5 {
   margin-top: 5px;
-  padding-top: 12px;
+  padding-top: 5px;
 }
 .right-box2 {
   display: flex;
@@ -451,6 +455,11 @@ h2 {
   letter-spacing: .75px;
 }
 
+/* .flexbox img {
+  transform: translateY(-5px);
+} */
+
+
 /* a.marine{
   transform: translateY(-8px);
   font-size: 13px;
@@ -472,6 +481,12 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  transform: translateX(-1px);
+}
+.right-box2{
+  transform: translateX(-1px);
+  transform: translateY(-2px);
+  line-height: normal;
 }
 
 .instaPort{

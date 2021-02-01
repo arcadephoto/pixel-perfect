@@ -336,12 +336,14 @@ boxes. */
   padding: 0;
 }
 
+
 .boxInfoSub{
   color: #444444;
   font-size: 13px;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: .75;
 }
+
 p {
   color: #444444;
 }
@@ -384,6 +386,7 @@ date {
 
 .dateLine{
   transform: translateY(2px);
+  letter-spacing: .75px;
 }
 
 .rightinfo2 p{
@@ -434,6 +437,25 @@ h2 {
   font-size: 13px;
 }
 
+
+
+.chalk{
+  letter-spacing: .75px;
+}
+
+.mango{
+  letter-spacing: .75px;
+}
+
+.herbal{
+  letter-spacing: .75px;
+}
+
+/* a.marine{
+  transform: translateY(-8px);
+  font-size: 13px;
+  line-height: normal;
+} */
 
 /* Instagram section with headline and photos, which embiggen on hover. */
 .gramHeadline{

@@ -240,8 +240,9 @@ a:visited{
   padding-top: 70px;
   padding-bottom: 0;
   margin-bottom: 0;
-  transform: translateX(-2px);
-  transform: translateY(-1px)
+  letter-spacing: .75px;
+  /* transform: translateX(-5px);*/
+  transform: translateY(-2px);
 }
 
 .bioText{
@@ -258,6 +259,7 @@ a:visited{
   font-size: 15px;
   text-align: center;
   letter-spacing: 9px;
+  transform: translateX(-2px);
 }
 
 .iconround {
@@ -352,6 +354,14 @@ date {
   font-family: "Lato";
   font-style: italic;
   color: #C2C2C2;
+}
+
+.dateLine{
+  transform: translateY(2px);
+}
+
+.rightinfo2 p{
+  padding-top: 1px;
 }
 
 h2 {
@@ -471,6 +481,7 @@ footer {
 }
 
 .footText {
+  transform: translateX(-3px);
   font-family: "Lato";
   font-size: 14px;
   padding: 25px;
